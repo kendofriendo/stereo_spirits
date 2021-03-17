@@ -21,10 +21,12 @@
         <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other Stuff</a>
+      <% if user_signed_in? %>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong><%= current_user.email%></strong></a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+
+          <%= link_to "Login", new_user_session_path, class: "dropdown-item" %>
+          <%= link_to "Signup", new_user_registration_path, class: "dropdown-item" %>
           <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
@@ -32,8 +34,8 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="text" placeholder="I don't work :)">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Cool search button.</button>
     </form>
   </div>
 </nav>

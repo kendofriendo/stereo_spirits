@@ -4,8 +4,11 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
   :recoverable, :rememberable, :validatable, :omniauthable
   attr_writer :login
-  
-def
+
+    has_many :gigs
+    has_many :bands, through: :gigs
+
+def login
   @login || self.username || self.email
 end
   

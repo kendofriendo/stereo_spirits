@@ -8,32 +8,32 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home
+        <a class="nav-link" href="/">Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Bands</a>
+        <%= link_to "Bands", bands_path, class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gigs</a>
+    <%= link_to "Gigs", gigs_path, class: "nav-link" %>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item dropdown">
+
+
       <% if user_signed_in? %>
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong><%= current_user.email%></strong></a>
+    <li class="nav-item">
+      <%= current_user.username class: "nav-link" %>
+    </li>
       <% else %>
+            <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Login or Signup</strong></a>
         <div class="dropdown-menu">
           <%= link_to "Login", new_user_session_path, class: "dropdown-item" %>
           <%= link_to "Signup", new_user_registration_path, class: "dropdown-item" %>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <%# <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+          <a class="dropdown-item" href="#">Separated link</a> %>
         </div>
-
       </li>
     </ul>
             <%end%>

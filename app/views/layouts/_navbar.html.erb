@@ -1,3 +1,4 @@
+<%require 'pry'%>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">StereoSpirits</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +24,19 @@
       <li class="nav-item dropdown">
       <% if user_signed_in? %>
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong><%= current_user.email%></strong></a>
+      <% else %>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Login or Signup</strong></a>
         <div class="dropdown-menu">
-
           <%= link_to "Login", new_user_session_path, class: "dropdown-item" %>
           <%= link_to "Signup", new_user_registration_path, class: "dropdown-item" %>
           <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
         </div>
+
       </li>
     </ul>
+            <%end%>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="I don't work :)">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Cool search button.</button>

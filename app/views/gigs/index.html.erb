@@ -1,5 +1,10 @@
+<% if current_user.gigs.empty? %>
+<p class="text-warning"> You don't have any gigs yet. Would you like to create one? </p>
+	<% else %>
 <% @gigs.each do |g| %>
 <h1> Gigs: </h1>
 <p> <%= g.name %> </p>
 <p> <%= g.description %> </p>
 <% end %>
+<% end %>
+</div>

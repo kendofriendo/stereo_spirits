@@ -21,8 +21,14 @@
 
 
       <% if user_signed_in? %>
-    <li class="nav-item">
-      <%= current_user.username class: "nav-link" %>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Welcome, <%= "#{current_user.username || current_user.email}" %>!</strong></a>
+        <div class="dropdown-menu">
+
+          <div class="dropdown-divider"></div>
+          <%= link_to "Account Settings", edit_user_registration_path, class: "dropdown-item" %>
+          <%= link_to "Logout", destroy_user_session_path, class: "dropdown-item" %>
+        </div>
     </li>
       <% else %>
             <li class="nav-item dropdown">
@@ -37,9 +43,5 @@
       </li>
     </ul>
             <%end%>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="I don't work :)">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Cool search button.</button>
-    </form>
   </div>
 </nav>

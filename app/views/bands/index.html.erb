@@ -1,5 +1,10 @@
-<% @bands.each do |b| %>
+<div class="container">
+<%=button_to "Join Band", new_band_path, method: :get%>
+<br>
+<% @bands.each do |g| %>
 <h1> Bands: </h1>
-<p> <%= b.name %> </p>
-<p> <%= b.description %> </p>
+<p> <%= g.name %> </p>
+<p> <%= g.description %> </p>
 <% end %>
+
+</div>

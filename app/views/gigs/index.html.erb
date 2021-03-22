@@ -1,5 +1,6 @@
 <% if current_user.gigs.empty? %>
 <p class="text-warning"> You don't have any gigs yet. Would you like to create one? </p>
+<%button_to "Yes", new_gig_path%>
 	<% else %>
 <% @gigs.each do |g| %>
 <h1> Gigs: </h1>

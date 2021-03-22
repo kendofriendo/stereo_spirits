@@ -1,3 +1,4 @@
+<% unless user_signed_in?%>
 <div class="jumbotron">
   <h1 class="display-3">Welcome to StereoSpirits!</h1>
   <p class="lead">This is a site to find and collaborate with fellow musicians remotely.</p>
@@ -7,3 +8,4 @@
     <a class="btn btn-primary btn-lg" href="/users/sign_up" role="button">Let's do it.</a>
   </p>
 </div>
+<%end%>

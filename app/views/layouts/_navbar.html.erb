@@ -34,8 +34,8 @@
             <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Login or Signup</strong></a>
         <div class="dropdown-menu">
-          <%= link_to "Login", new_user_session_path, class: "dropdown-item" %>
-          <%= link_to "Signup", new_user_registration_path, class: "dropdown-item" %>
+          <%= link_to "Login", new_user_session_path, class: "dropdown-item", method: :get %>
+          <%= link_to "Signup", new_user_registration_path, class: "dropdown-item", method: :get %>
           <%# <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a> %>

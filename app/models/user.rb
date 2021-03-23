@@ -1,8 +1,7 @@
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
-  devise :database_authenticatable, :registerable,
-  :recoverable, :rememberable, :validatable, :omniauthable, omniauth_providers: %i[github]
+  devise :database_authenticatable, :registerable, :rememberable, :validatable, :omniauthable, omniauth_providers: %i[github]
   attr_writer :login
 
     has_many :gigs
@@ -20,9 +19,10 @@ def self.from_omniauth(auth)
     #user.image = auth.info.image # assuming the user model has an image
     # If you are using confirmable and the provider(s) you use validate emails, 
     # uncomment the line below to skip the confirmation emails.
-    # user.skip_confirmation!
+     user.skip_confirmation!
   end
 end
+
 def self.new_with_session(params, session)
   super.tap do |user|
     if data = session["devise.github_data"] && session["devise.github_data"]["extra"]["raw_info"]
@@ -44,6 +44,8 @@ def self.find_first_by_auth_conditions(warden_conditions)
     end
   end
 end
+
+validates :username, presence: true, uniqueness: { case_sensitive: false }
 
 
 end

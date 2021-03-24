@@ -1,4 +1,6 @@
-<% unless user_signed_in?%>
+<%if user_signed_in?%>
+<%= render 'users/index' %>
+<%else%>
 <div class="jumbotron">
   <h1 class="display-3">Welcome to StereoSpirits!</h1>
   <p class="lead">This is a site to find and collaborate with fellow musicians remotely.</p>

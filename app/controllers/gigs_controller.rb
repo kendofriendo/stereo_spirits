@@ -4,4 +4,6 @@ class GigsController < ApplicationController
 		@gigs = Gig.all
 	end
 	
+	
+
 end

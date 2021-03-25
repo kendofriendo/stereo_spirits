@@ -1,62 +1,18 @@
 
-<form>
-  <fieldset>
-    <legend> Create A Gig </legend>
-    <div class="form-group">
-      <label for="exampleGigName1">Gig Name</label>
-      <input type="string" class="form-control" id="exampleInputEmail1" aria-describedby="gigHelp" placeholder="Waffles in C Minor">
-      <small id="gigHelp" class="form-text text-muted">Song or Project Name.</small>
-    </div>
-    <div class="form-group">
-      <label for="exampleGigdesc">Gig Description</label>
-      <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Looking for a guitarist to collab with my drumming!"></textarea>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputFile">Upload Gig File</label>
-      <input type="file" class="form-control-file" id="exampleGigFile" aria-describedby="gigHelp">
-      <small id="gigHelp" class="form-text text-muted">Upload a sample of your track, lyrics, etc.</small>
-    </div>
-    <fieldset class="form-group">
-      <legend>Radio buttons</legend>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-          Placeholder Option One
-        </label>
-      </div>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-            Placeholder Option Two
-        </label>
-      </div>
-      <div class="form-check disabled">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
-          Placeholder disabled Option
-        </label>
-      </div>
-    </fieldset>
-    <fieldset class="form-group">
-      <legend>Placeholder checkboxes</legend>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" value="" checked="">
-          Users could check this to make their gigs private
-        </label>
-      </div>
-      <div class="form-check disabled">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" value="" disabled="">
-          Users could check this to create a gig as a band if they are in one.
-        </label>
-      </div>
-    </fieldset>
-    <fieldset class="form-group">
-      <legend>Here's a slider to play with </legend>
-      <label for="customRange1">Wheeee.</label>
-      <input type="range" class="custom-range" id="customRange1">
-    </fieldset>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </fieldset>
-</form>
+<%= form_for @gig do |form| %>
+  <%= form.label :name, "Sweet gig name:" %>
+  <br>
+  <%= form.text_field :name %>
+  <br>
+  <br>
+    <%= form.label :description, "Description of your gig:" %>
+  <br>
+  <%= form.text_area :description, size: "60x3" %>
+  <br><br>
+  <%= form.check_box :joinable, {}, checked_value = "false", unchecked_value = "true" %> 
+  <%= form.label :joinable, "Private?" %> <span class="badge badge-warning">(No one will be able to join a band with you using this gig)</span>
+  <br>
+  <br>
+  <%= form.submit %>
+<% end %>
+

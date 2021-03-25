@@ -1,9 +1,0 @@
-
-<%=button_to "Join Band", new_band_path, method: :get%>
-<br>
-<% @bands.each do |g| %>
-<h1> Bands: </h1>
-<p> <%= g.name %> </p>
-<p> <%= g.description %> </p>
-<% end %>
-

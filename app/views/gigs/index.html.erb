@@ -1,9 +1,2 @@
-
-<%=button_to "Create Gig", new_gig_path, method: :get%>
-<br>
-<% @gigs.each do |g| %>
-<h1> Gigs: </h1>
-<p> <%= g.name %> </p>
-<p> <%= g.description %> </p>
-<% end %>
-
+<p><%=@gigs%></p>
+<%=link_to "Create Gig", new_gig_path%>

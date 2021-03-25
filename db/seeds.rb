@@ -18,7 +18,7 @@ end
 # 10.times do 
 # 	Band.create(
 # 		name: Faker::Music.unique.band
-# 		Faker::Books::Lovecraft.sentence
+# 		description: Faker::Books::Lovecraft.sentence
 		
 # 	)
 # end

@@ -1,0 +1,12 @@
+<h3><%= current_user.username%>'s Profile</h3>
+<h5>Your Gigs:</p>
+<%= @gigs.each do |g| %>
+<p><%=g.name%></p>
+<p><%=g.description%></p>
+<%end%>
+<br>
+<h5>Your Bands:</p>
+<%= @bands.each do |b| %>
+<p><%=b.name%></p>
+<p><%=b.description%></p>
+<%end%>

@@ -1,0 +1,5 @@
+.rails not found, maybe you meant:
+
+ActionDispatch::Routing::Mapper::Base#rails_app?
+ActionView::LogSubscriber#rails_root
+AwesomePrint::rails_console?

@@ -4,6 +4,11 @@ class GigsController < ApplicationController
 		@gigs = Gig.all
 	end
 	
+	def create
+		before_action authenticate_user!
+		@gig = Gig.new
+
+	end
 	
 
 end

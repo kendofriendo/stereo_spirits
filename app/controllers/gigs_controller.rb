@@ -17,9 +17,9 @@ class GigsController < ApplicationController
 	def create
 		@gig = Gig.new(gig_params)
 		if @gig.save
-      		redirect_to @gig
+			redirect_to @gig
     	else
-      	render :new
+			render :new
     end
 
 	end
@@ -29,9 +29,10 @@ class GigsController < ApplicationController
 	end
 
 	private
+
 		def gig_params
 			params.require(:gig).permit(:name, :description, :joinable)
 		end
-binding.pry
+
 
 end

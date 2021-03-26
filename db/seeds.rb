@@ -15,13 +15,15 @@ require 'faker'
 	)
 end
 
-# 10.times do 
-# 	Band.create(
-# 		name: Faker::Music.unique.band
-# 		description: Faker::Books::Lovecraft.sentence
+=begin
+10.times do 
+	Band.create(
+		name: Faker::Music.unique.band
+		description: Faker::Books::Lovecraft.sentence
+		joinable: true
 		
-# 	)
-# end
+	)
+=end
 
 10.times do
 	Gig.create(

@@ -33,5 +33,4 @@ end
 	joinable: true,
 	user_id: User.ids.sample
 	)
-
-=end
+end

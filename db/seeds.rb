@@ -30,7 +30,6 @@ end
 	Gig.create(
 	name: Faker::Music::RockBand.unique.song,
 	description: Faker::Hipster.paragraph(sentence_count: 3),
-	joinable: true,
 	user_id: User.ids.sample
 	)
 end

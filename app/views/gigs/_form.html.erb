@@ -9,7 +9,7 @@
   <br>
   <%= form.text_area :description, size: "60x3" %>
   <br><br>
-  <%= form.check_box :joinable, {}, checked_value = "false", unchecked_value = "true" %> 
+  <%= form.check_box :joinable, {}, checked_value = false, unchecked_value = true %> 
   <%= form.label :joinable, "Private?" %> <span class="badge badge-warning">(No one will be able to join a band with you using this gig)</span>
   <br>
   <br>

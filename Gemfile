@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'pry'
 gem 'sassc'
+gem 'groupify'
 gem 'pry-byebug'
 gem 'awesome_print'
 gem 'simple_form'

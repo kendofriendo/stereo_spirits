@@ -6,7 +6,7 @@ require 'faker'
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+=begin
 20.times do 
 	User.create(
 		username: Faker::Twitter.unique.screen_name,
@@ -14,7 +14,7 @@ require 'faker'
 		password: Faker::Internet.password
 	)
 end
-
+=end
 =begin
 10.times do 
 	Band.create(
@@ -25,7 +25,7 @@ end
 	)
 =end
 
-=begin
+
 10.times do
 	Gig.create(
 	name: Faker::Music::RockBand.unique.song,
@@ -33,5 +33,5 @@ end
 	joinable: true,
 	user_id: User.ids.sample
 	)
-end
+
 =end

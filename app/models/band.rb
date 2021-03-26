@@ -1,4 +1,4 @@
 class Band < ApplicationRecord
-	has_many :gigs
-	has_many :users, through: :gigs
+	has_many :band_memberships
+	has_many :users, through: :band_memberships
 end

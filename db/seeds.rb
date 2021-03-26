@@ -9,8 +9,8 @@ require 'faker'
 
 20.times do 
 	User.create(
-		username: Faker::Twitter.unique.screen_name
-		email: Faker::Internet.unique.email
+		username: Faker::Twitter.unique.screen_name,
+		email: Faker::Internet.unique.email,
 		password: Faker::Internet.password
 	)
 end
@@ -20,15 +20,18 @@ end
 	Band.create(
 		name: Faker::Music.unique.band
 		description: Faker::Books::Lovecraft.sentence
-		joinable: true
+
 		
 	)
 =end
 
+=begin
 10.times do
 	Gig.create(
-	name: Faker::Music.unique.song
-	description: Faker::Hipster.paragraph(sentence_count: 3)
+	name: Faker::Music::RockBand.unique.song,
+	description: Faker::Hipster.paragraph(sentence_count: 3),
+	joinable: true,
+	user_id: User.ids.sample
 	)
-
 end
+=end

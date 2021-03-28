@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_26_160737) do
+ActiveRecord::Schema.define(version: 2021_03_28_055456) do
 
   create_table "band_memberships", force: :cascade do |t|
     t.integer "user_id"
     t.integer "band_id"
-    t.string "role"
+    t.string "member_role"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["band_id"], name: "index_band_memberships_on_band_id"
@@ -27,15 +27,6 @@ ActiveRecord::Schema.define(version: 2021_03_26_160737) do
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "gigs", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.integer "user_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_gigs_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -54,5 +45,6 @@ ActiveRecord::Schema.define(version: 2021_03_26_160737) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
-  add_foreign_key "gigs", "users"
+  add_foreign_key "band_memberships", "bands"
+  add_foreign_key "band_memberships", "users"
 end

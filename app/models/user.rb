@@ -6,6 +6,7 @@ class User < ApplicationRecord
 
     has_many :band_memberships
     has_many :bands, through: :band_memberships
+    
 def login
   @login || self.username || self.email
 end

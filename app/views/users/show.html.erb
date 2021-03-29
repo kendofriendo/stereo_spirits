@@ -1,3 +1,6 @@
-<h5>User Profile</h5>
+
 <p> <%= @user.username %></p>
-<p><%= @user.band_memberships%></p>
+<p><%= @user.bands.each do |b|%></p>
+<p><%=b.name%></p>
+<p><%=b.description%></p>
+<%end%>

@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
-  resources :band_memberships, only: %i[:index]
   resources :bands do
     resources :users, only: %i[:show, :index]
   end
-  devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
+  devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' } do
+    resources :band_memberships, only: %i[:index]
+  end
   root to: "application#index"
-  get '/users/:id', to: 'users#show', as: 'user'
-  get '/profile', to: 'users#show', as: "#{current_user.username}"
+  get 'profile', to: 'users#show'
 end
 
 

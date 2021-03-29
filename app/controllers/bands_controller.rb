@@ -6,13 +6,21 @@ class BandsController < ApplicationController
 		@band = Band.new
 	end
 	def create
-		@band = Band.new(params[:band])
-		if @band.save
-			flash[:success] = "Band successfully created"
-			redirect_to @band
-		else
-			flash[:error] = "Something went wrong"
-			render 'new'
-		end
+		@band = Band.new(band_params)
+			if @band.save
+				@band.users << current_user
+				flash[:success] = "Band successfully created"
+				redirect_to @band
+			else
+				flash[:error] = "Something went wrong"
+				render 'new'
+			end
+		
+	end
+
+	private
+	
+	def band_params
+		params.require(:band).permit(:name, :description)
 	end
 end

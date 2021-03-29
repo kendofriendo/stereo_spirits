@@ -1,4 +1,5 @@
 require "awesome_print"
+require 'pry'
 class ApplicationController < ActionController::Base
 	before_action :configure_permitted_parameters, if: :devise_controller?
 	protected

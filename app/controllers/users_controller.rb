@@ -1,13 +1,14 @@
 class UsersController < ApplicationController
 
 	def index
-		@users = User.all(order: "created_at")
+		@users = User.all
 	end
 	
 	def show
-		@user = User.find(params[:id])
-	end
-
-	def profile
+		if params[:id]
+			@user = User.find(params[:id])
+		  else
+			@user = current_user
+		end
 	end
 end

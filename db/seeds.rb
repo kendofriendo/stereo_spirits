@@ -8,12 +8,14 @@ require 'faker'
 #   Character.create(name: 'Luke', movie: movies.first)
 
 def create_admin
-	User.create(
-		username: "admin",
-		password: "password",
-		email: "admin@email.com"
-	)
-	unless User.find_by(username: admin)
+	if User.find_by(username: "admin")
+		exit
+	else
+		User.create(
+			username: "admin",
+			password: "password",
+			email: "admin@email.com"
+		)
 	end
 end
 
@@ -29,4 +31,10 @@ end
 		name: Faker::Music.unique.band,
 		description: Faker::Books::Lovecraft.sentence
 	)
+	BandMembership.create(
+		role: Faker::Music::instrument,
+		band_id: Band.last.id,
+		user_id: User.ids.sample
+	)
 end
+binding.pry

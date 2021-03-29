@@ -1,0 +1,8 @@
+
+<%= @bands.each do |b|%>
+
+<p><%= b.name %></p>
+<p><%= b.description%></p>
+<p><%= b.users.each {|u| u.username} unless b.users.empty? %></p>
+
+<% end%>

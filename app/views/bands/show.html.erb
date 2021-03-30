@@ -3,8 +3,10 @@
 <p>Description: <%= @band.description %></p>
 <br>
 <div>
-<p>Number of Members:</p> 
-<p><%= @band.users.count%></p>
-
-<p><%= link_to "#{@band.users.each.pluck(:username).join}", profile_path(:id) %></p>
+<% if member.count >= 2 %>
+<p>Number of Members: <%= member.count%> </p> 
+<% else %>
+<p>Founding Member: </p> 
+<p><%= link_to "#{member.pluck(:username).join}", user_path(member.pluck(:id))%></p>
+<%end%>
 </div>

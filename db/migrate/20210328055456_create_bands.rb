@@ -6,5 +6,4 @@ class CreateBands < ActiveRecord::Migration[6.1]
       t.timestamps null: false
     end
   end
-  after_save 
 end

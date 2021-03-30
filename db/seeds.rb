@@ -33,8 +33,7 @@ end
 	)
 	BandMembership.create(
 		role: Faker::Music::instrument,
-		band_id: Band.last.id,
+		band_id: Band.last.id
 		user_id: User.ids.sample
 	)
 end
-binding.pry

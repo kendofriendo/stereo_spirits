@@ -3,5 +3,5 @@
 	<p><%= b.name %></p>
 	<p><%= b.description%></p>
 	<p><%= b.users {|u| u.all.username} unless b.users.empty? %></p>
-<% binding.pry %>
+
 <% end%>

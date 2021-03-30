@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :bands do
-    resources :users, only: %i[:show, :index]
+    resources :users, shallow: true
   end
   devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' } do
     resources :band_memberships, only: %i[:index]

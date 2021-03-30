@@ -1,2 +1,10 @@
-<p><%= @band.name%>
-<%= @band.description %>
+<% @band = Band.find(params[:id])%>
+<p>Name: <%= @band.name %></p>
+<p>Description: <%= @band.description %></p>
+<br>
+<div>
+<p>Number of Members:</p> 
+<p><%= @band.users.count%></p>
+
+<p><%= link_to "#{@band.users.each.pluck(:username).join}", profile_path(:id) %></p>
+</div>

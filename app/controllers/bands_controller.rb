@@ -22,4 +22,7 @@ class BandsController < ApplicationController
 		params.require(:band).permit(:name, :description)
 	end
 
+	def show
+		@band = Band.find(params[:id])
+	end
 end

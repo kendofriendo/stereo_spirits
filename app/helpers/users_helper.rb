@@ -1,5 +1,6 @@
 module UsersHelper
 	def random_user
-		random_user = User.order(Arel.sql('RANDOM()')).first
+		3.times {|u| [] << User.all.sample.username}
+		ary = [] << User.all.sample.username
 	end
 end

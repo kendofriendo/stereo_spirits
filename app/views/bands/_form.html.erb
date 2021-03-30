@@ -1,0 +1,7 @@
+<%= simple_form_for @band do |f| %>
+	<%= f.input :name %>
+	<%= f.input :description %>
+	<%= f.association :band_membership %>
+	<%= f.input :role %>
+	<%= f.button :submit %>
+<% end %>

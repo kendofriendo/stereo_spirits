@@ -1,0 +1,12 @@
+<% @band = Band.find(params[:id])%>
+<p>Name: <%= @band.name %></p>
+<p>Description: <%= @band.description %></p>
+<br>
+<div>
+<% if member.count >= 2 %>
+<p>Number of Members: <%= member.count%> </p> 
+<% else %>
+<p>Founding Member: </p> 
+<p><%= link_to "#{member.pluck(:username).join}", user_path(member.pluck(:id))%></p>
+<%end%>
+</div>

@@ -6,7 +6,19 @@ require 'faker'
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-=begin
+
+def create_admin
+	if User.find_by(username: "admin")
+		exit
+	else
+		User.create(
+			username: "admin",
+			password: "password",
+			email: "admin@email.com"
+		)
+	end
+end
+
 20.times do 
 	User.create(
 		username: Faker::Twitter.unique.screen_name,
@@ -14,22 +26,14 @@ require 'faker'
 		password: Faker::Internet.password
 	)
 end
-=end
-=begin
 10.times do 
 	Band.create(
-		name: Faker::Music.unique.band
+		name: Faker::Music.unique.band,
 		description: Faker::Books::Lovecraft.sentence
-
-		
 	)
-=end
-
-
-10.times do
-	Gig.create(
-	name: Faker::Music::RockBand.unique.song,
-	description: Faker::Hipster.paragraph(sentence_count: 3),
-	user_id: User.ids.sample
+	BandMembership.create(
+		role: Faker::Music::instrument,
+		band_id: Band.last.id
+		user_id: User.ids.sample
 	)
 end

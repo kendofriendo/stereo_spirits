@@ -10,6 +10,12 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+document.write(
+    '<script src="http://' +
+      (location.host || '${1:localhost}').split(':')[0] +
+      ':${2:3000}/livereload.js?snipver=1"></' +
+      'script>'
+  );
 
 Rails.start()
 Turbolinks.start()

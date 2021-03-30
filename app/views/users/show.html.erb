@@ -1,12 +1,11 @@
-<h3><%= current_user.username%>'s Profile</h3>
-<h5>Your Gigs:</p>
-<%= @gigs.each do |g| %>
-<p><%=g.name%></p>
-<p><%=g.description%></p>
-<%end%>
-<br>
-<h5>Your Bands:</p>
-<%= @bands.each do |b| %>
-<p><%=b.name%></p>
-<p><%=b.description%></p>
-<%end%>
+<h1>
+    <%= link_to "#{@user.username}'s Profile", profile_path || user_path(:id) %>
+</h1>
+    <%= link_to "Bands", user_bands_path(@user.id)%>
+<div>
+  <div>
+    <p>Welcome to your profile,</p>
+      <h3> <%= @user.username %></h3>
+  </div>
+  <div>
+  

@@ -1,12 +1,31 @@
-
-<h3><%=current_user.username || current_user.email%>'s dashboard</h3>
+<h4>Activity</h4>
+<h5>Currently <span class="badge-secondary"> <%= User.count%></span> registered users.</h5>
 <hr>
-<h5>My Gigs:</h5>
-  <% if current_user.gigs.empty? %>
-    <%= link_to "Nothing yet. Want to create a gig?", new_gig_path %>
-  <%else%>
-    <% current_user.gigs do |g| %>
-    <p><%=g.name %></p>
-    <p><%=g.description %></p>
-  <%end%>
-<%end%>
+
+<div class = "container-fluid">
+	<h6>Activity</h6>
+		<div class = "row">
+			<div class="card border-success mb-3" style="max-width: 20rem;">
+	<div class="card-header"><%="#{random_user[0]}"%></div>
+	<div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%>.</h4>
+    <p class="card-text"> Username joined Band.count other members under the role of guitarist.</p>
+	</div>
+</div>
+
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header"><%="#{random_user[0]}"%></div>
+  <div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%></h4>
+    <p class="card-text"> Username joined Band.count other members under the role of guitarist.</p>
+  </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header"><%="#{random_user[0]}"%></div>
+  <div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%></h4>
+    <p class="card-text"> Joined Band.count other members under the role of guitarist.</p>
+  </div>
+</div>
+         </div>
+	</div>

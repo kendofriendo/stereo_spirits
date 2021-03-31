@@ -10,3 +10,4 @@
 <p><%= link_to "#{member.pluck(:username).join}", user_path(member.pluck(:id))%></p>
 <%end%>
 </div>
+<%= link_to "Join", new_band_membersip_path %>

@@ -1,11 +1,9 @@
-<h1>
-    <%= link_to "#{@user.username}'s Profile", profile_path || user_path(:id) %>
-</h1>
+<h2 align="center">
+    <%= link_to "#{@user.username}'s Profile", profile_path || user_path(:id), class: "text-success" %>
+</h2>
+<hr color="white">
+<h3>
     <%= link_to "Bands", user_bands_path(@user.id)%>
-<div>
-  <div>
-    <p>Welcome to your profile,</p>
-      <h3> <%= @user.username %></h3>
-  </div>
-  <div>
-  
+</h3>
+
+<p> View bands joined by <%="#{@user.username}"%> </p>

@@ -1,13 +1,5 @@
 require 'faker'
-
-def create_admin
-	unless User.find_by(username: "admin")
-		User.create(
-			username: "admin",
-			password: "password",
-			email: "admin@email.com"
-		)
-end
+require 'pry'
 
 20.times do 
 	User.create(
@@ -24,11 +16,11 @@ end
 	)
 end
 
-20.times do BandMembership.create(
-		role: Faker::Music::instrument,
+10.times do BandMembership.create(
+		role: Faker::Music::unique.instrument,
 		band_id: Band.ids.sample,
 		user_id: User.ids.sample
 	)
 end
-binding.pry
-end
+
+User.create_or_find_by(username: "admin", password: "password", email: "admin@email.com")

@@ -12,7 +12,7 @@
 	  <% @bands.all.each do |b|%>
       <th scope="row"><%=link_to "#{b.name}", band_path(b.id) %></th>
       <td><%= b.description%></td>
-      <td><%=link_to "#{b.users.count}", user_path(b.users.pluck(:id)) || profile_path %></td>
+      <td><%=link_to "#{b.users.count}"%></td>
     </tr>
 
   </tbody>

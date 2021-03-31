@@ -8,15 +8,12 @@ require 'faker'
 #   Character.create(name: 'Luke', movie: movies.first)
 
 def create_admin
-	if User.find_by(username: "admin")
-		exit
-	else
+	unless User.find_by(username: "admin")
 		User.create(
 			username: "admin",
 			password: "password",
 			email: "admin@email.com"
 		)
-	end
 end
 
 20.times do 
@@ -33,7 +30,7 @@ end
 	)
 	BandMembership.create(
 		role: Faker::Music::instrument,
-		band_id: Band.last.id
+		band_id: Band.ids.sample,
 		user_id: User.ids.sample
 	)
 end

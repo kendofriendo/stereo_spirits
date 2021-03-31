@@ -1,9 +1,20 @@
 <% @band = Band.find(params[:id])%>
-<p>Name: <%= @band.name %></p>
-<p>Description: <%= @band.description %></p>
+<div>
+<h3 align="center" class="text text-info"> <%= @band.name %></h3>
+<h4 align="center" id="description"><%= @band.description %></h4>
+</div>
 <br>
 <div>
-<p>Number of Members: <%= member.count%> </p> 
-<p><%= user_path(:user_id)%></p>
+<%if member.count == 0 %>
+<%@user = User.find(params[:id])%>
+<p>No Members yet.</p> 
+<%= button_to "Join", action: @add_user_to_band unless !@joinable %>
+<% else %>
+<h5><%= member.count %> Members: </p></h5>
+<%member.each do |m| %>
+<h5><%= link_to "#{m.username} ", user_path(m.id) %></h5>
+<br>
+<%end%>
+<%= button_to "Join",  class: "btn btn-primary", action: @add_user_to_band %>
 </div>
-<%= link_to "Join", new_user_band_path(current_user.id) %>
+<%end%>

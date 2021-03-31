@@ -19,7 +19,8 @@ end
 10.times do BandMembership.create(
 		role: Faker::Music::unique.instrument,
 		band_id: Band.ids.sample,
-		user_id: User.ids.sample
+		user_id: User.ids.sample,
+		joinable: Faker::boolean.boolean
 	)
 end
 

@@ -6,7 +6,7 @@ class BandMembershipsController < ApplicationController
 		@band_memberships = BandMembership.all
 	end
 
-	def show
-		@band_membership = current_user.bands.new
+	def new
+		User.find(params[:id]).bands << Band.create(band_params)
 	end
 end

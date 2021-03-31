@@ -4,6 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :rememberable, :validatable, :omniauthable, omniauth_providers: %i[github]
   attr_writer :login
 
+  # Ex:- scope :active, -> {where(:active => true)}
     has_many :band_memberships
     has_many :bands, through: :band_memberships
     

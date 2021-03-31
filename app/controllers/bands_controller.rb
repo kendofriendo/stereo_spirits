@@ -24,11 +24,18 @@ class BandsController < ApplicationController
 			end	
 		end
 	end
+def add_user_to_band
+	@add_user_to_band = @user.bands << @band 
+end
 
+	
+def role_list
+	BandMembership.pluck(:role).uniq
+end
 	private
 	
 	def band_params
-		params.require(:band).permit(:name, :description, band_membership_attributes: [:role, :joinable])
+		params.require(:band).permit(:name, :description)
 	end
 
 	def show

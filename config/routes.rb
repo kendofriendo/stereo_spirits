@@ -12,15 +12,3 @@ Rails.application.routes.draw do
   root to: "application#index"
   get 'profile', to: 'users#show'
 end
-
-
-
-
-=begin
-
-users/id/band
-users/id/band/id
-gig/id
-gig/id/user/id
-
-=end

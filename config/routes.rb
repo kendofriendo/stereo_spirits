@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' } do
-    resources :band_memberships, only: %i[:index]
+    resources :band_memberships, only: %i[:show, :edit, :new]
   end
   resources :bands do
     resources :users, shallow: true
@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 
   root to: "application#index"
   get 'profile', to: 'users#show'
+
 end

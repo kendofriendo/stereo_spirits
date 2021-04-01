@@ -1,0 +1,24 @@
+<div>
+<h3 align="center" class="text text-info"> <%= @band.name %></h3>
+<h4 align="center" id="description"><%= @band.description %></h4>
+</div>
+<br>
+<div>
+<%if member.count == 0 %>
+	<p>No Members yet.</p> 
+<%= link_to 'Join', "#{@band.id}/join", class: "btn btn-info", method: 'get', remote: true %>
+<% elsif @band.users.ids.include?(current_user.id)  %>
+	<span class="badge badge-warning"><%= link_to 'Edit', edit_band_path(@band)%></span>
+		<h5>Member List: </p></h5>
+			<%member.uniq.each do |m| %>
+			<h5><%= link_to "#{m.username} ", user_path(m.id) %></h5>
+			<%end%>
+<%=link_to "Edit Membership", edit_band_membership_path%>
+<% else  %>
+<%member.uniq.each do |m| %>
+<h5><%= link_to "#{m.username} ", user_path(m.id) %></h5>
+<%end%>
+<br>
+<%= link_to 'Join', "#{@band.id}/join", class: "btn btn-info", method: 'get', remote: true %>
+<%end%>
+</div>

@@ -24,11 +24,10 @@ gem 'pry-byebug'
 gem 'awesome_print'
 gem 'simple_form'
 gem 'bootstrap', '~> 5.0.0.beta2'
-gem 'devise'
-gem 'omniauth-github'
+gem 'devise', github: 'heartcombo/devise', branch: 'master'
+gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
 gem 'omniauth-rails_csrf_protection'
-gem 'guard'
-gem 'guard-livereload', '~> 2.5', require: false
+gem 'jquery-rails'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -55,7 +54,14 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "rack-livereload"
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "scoped_search", "~> 4.1"

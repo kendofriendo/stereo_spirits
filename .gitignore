@@ -38,3 +38,13 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+#ignore vscode workspace
+lib/tasks/*.code-workspace
+.vscode/formatter.json
+.vscode/extensions.json
+.vscode/settings.json
+yarn.lock
+package.json
+yarn.lock
+config/workspace.code-workspace

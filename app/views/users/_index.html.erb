@@ -1,0 +1,31 @@
+<h4>Activity</h4>
+<h5>Currently <span class="badge-secondary"> <%= User.count%></span> registered users.</h5>
+<hr>
+
+<div class = "container-fluid">
+	<h6>Activity</h6>
+		<div class = "row">
+			<div class="card border-success mb-3" style="max-width: 20rem;">
+	<div class="card-header"><%="#{random_user[0]}"%></div>
+	<div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%>.</h4>
+    <p class="card-text"> as guitarist.</p>
+	</div>
+</div>
+
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header"><%="#{random_user[0]}"%></div>
+  <div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%></h4>
+    <p class="card-text">  as pianist.</p>
+  </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header"><%="#{random_user[0]}"%></div>
+  <div class="card-body">
+    <h4 class="card-title">Joined <%="#{Band.all.sample.name}"%></h4>
+    <p class="card-text"> as cellist.</p>
+  </div>
+</div>
+        </div>
+	</div>

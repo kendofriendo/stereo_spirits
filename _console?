@@ -1,0 +1,90 @@
+= AAwweessoommeePPrriinntt
+
+(from gem awesome_print-1.9.2)
+------------------------------------------------------------------------
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license.
+See LICENSE file or http://www.opensource.org/licenses/mit-license.php
+------------------------------------------------------------------------
+= CCllaassss  mmeetthhooddss::
+
+  boolean, console?, defaults, diet_rb, force_colors, force_colors!,
+  inspect_object, irb!, output_value, pry!, rails_console?, usual_rb,
+  version
+
+= AAttttrriibbuutteess::
+
+  attr_accessor defaults, attr_accessor force_colors
+

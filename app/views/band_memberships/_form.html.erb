@@ -1,0 +1,6 @@
+<%= simple_form_for @band_membership do |f| %>
+<%= f.input :role, label: "You can add your role in the band here." %>
+<%= f.button :submit, "Submit", class: "btn btn-primary" %>
+<%end%>
+<br>
+<%=button_to 'leave', "/leave", class: "btn btn-danger", method: 'delete', data: { confirm: 'Are you sure?' }, remote: true %>

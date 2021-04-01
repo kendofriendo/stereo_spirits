@@ -9,7 +9,6 @@ end
   resources :band_memberships, only: [:show, :edit, :new]
 
   root to: "application#index"
-
   get 'profile', to: 'users#show'
   get 'bands/:id/join' => 'users#join_band'
   delete "leave", to: 'band_memberships#leave_band'

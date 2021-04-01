@@ -1,14 +1,6 @@
-
-<% if params[:user_id]%>
-<%= simple_form_for @band do |f| %>
-	<%= f.label :name %>
-	<%= f.label :description %>
-	<%= f.button :submit, "Join", class: "btn btn-primary" %>
-	<%end%>
-<% else %>
+<%# Create %>
 <%= simple_form_for @band do |f| %>
 <%= f.input :name %>
 <%= f.input :description %>
-<%= f.button :submit, "Create", class: "btn btn-primary" %>
-<% end %>
+<%= f.button :submit, "Submit", class: "btn btn-primary" %>
 <%end%>

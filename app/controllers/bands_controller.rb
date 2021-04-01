@@ -31,11 +31,14 @@ def update
 	@band = Band.find(params[:id])
 end
 	
+def edit
+	@band = Band.find(params[:id])
+end
 
 	private
 	
 	def band_params
-		params.permit(:name, :description)
+		params.require(:band).permit(:name, :description)
 	end
 
 	def show

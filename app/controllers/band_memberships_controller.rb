@@ -30,4 +30,9 @@ class BandMembershipsController < ApplicationController
 	def role_list
 		BandMembership.pluck(:role).uniq
 	end
+
+	def edit
+		@BandMembership = BandMembership.find(:id)
+	end
+	
 end

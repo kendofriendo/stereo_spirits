@@ -47,3 +47,4 @@ lib/tasks/*.code-workspace
 yarn.lock
 package.json
 yarn.lock
+config/workspace.code-workspace

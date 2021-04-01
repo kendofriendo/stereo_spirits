@@ -1,7 +1,7 @@
 <% @band = Band.find(params[:id])%>
 <% @user = User.find(params[:id] || current_user)%>
 <div>
-<h3 align="center" class="text text-info"> <%= @band.name %></h3>
+<h3 align="center" class="text text-info"> <%= @band.name unless @band.name.nil?%></h3>
 <h4 align="center" id="description"><%= @band.description %></h4>
 </div>
 <br>
@@ -9,15 +9,17 @@
 <%if member.count == 0 %>
 <%@user = User.find(params[:id])%>
 <p>No Members yet.</p> 
-<%= link_to "Place an Order", @user_join, params: {id: @band}, method: :update %><br>
+<%= link_to 'Join', 'join_band', class: "btn btn-info", method: 'get', remote: true %>
 <% else %>
-<h5><%= member.count %> Members: </p></h5>
-<%member.each do |m| %>
+<h5><%= member.uniq.count %> Members: </p></h5>
+<%member.uniq.each do |m| %>
 <h5><%= link_to "#{m.username} ", user_path(m.id) %></h5>
 <br>
 
 <%end%>
 </div>
 
-<%end%>
-<%= link_to 'Join', join_path class: "btn btn-info", method: 'join_band', remote: true %>
+<%= link_to 'Join', url = "/bands/#{@band.id}/join", class: "btn btn-info", method: 'update', remote: true %>
+
+
+<% end %>

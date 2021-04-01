@@ -3,7 +3,7 @@ devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks'
   resources :bands do
     resources :users, shallow: true
   end
-resources :users do
+resources :users, only: [:index, :show] do
   resources :bands, shallow: true
 end
   resources :band_memberships, only: [:show, :edit, :new]

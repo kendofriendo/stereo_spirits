@@ -29,6 +29,8 @@ class BandsController < ApplicationController
 
 def update
 	@band = Band.find(params[:id])
+	@band.update!(band_params)
+	redirect_to @band
 end
 	
 def edit
@@ -42,7 +44,4 @@ end
 	def band_params
 		params.require(:band).permit(:name, :description)
 	end
-
-
-
 end

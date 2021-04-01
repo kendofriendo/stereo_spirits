@@ -13,4 +13,5 @@ end
   get 'profile', to: 'users#show'
   get 'bands/:id/join' => 'users#join_band'
   delete "leave", to: 'band_memberships#leave_band'
+  patch '/band_memberships/:id', to: 'band_memberships#update'
 end

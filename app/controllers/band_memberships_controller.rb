@@ -38,12 +38,22 @@ class BandMembershipsController < ApplicationController
 	end
 
 	def edit
-		@band_membership = BandMembership.find_by(user_id: current_user.id)
+		@band_membership = BandMembership.find_by(user_id: current_user.id) || @band_membership = Band.find(id = params[:id])
+		
 	end
 
 	def  update
-		@band_membership = BandMembership.find_by(user_id: current_user.id)
+		@band_membership = BandMembership.find(params[:id])
+		@band_membership.update!(band_membership_params)
+		if @band_membership.save
+			flash[:success] = "BandMembership successfully edited"
+		redirect_to edit_band_membership_path
+		else
+			flash[:error] = "Something went wrong"
+			redirect_to edit_band_membership_path
+		end
 	end
+
 	def  show
 		@band_membership = BandMembership.find_by(user_id: current_user.id)
 	end

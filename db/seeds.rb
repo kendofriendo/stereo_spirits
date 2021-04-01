@@ -20,7 +20,7 @@ end
 		role: Faker::Music::unique.instrument,
 		band_id: Band.ids.sample,
 		user_id: User.ids.sample,
-		joinable: Faker::boolean.boolean
+		joinable: Faker::Boolean.boolean
 	)
 end
 

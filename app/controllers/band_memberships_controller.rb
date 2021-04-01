@@ -1,7 +1,20 @@
 class BandMembershipsController < ApplicationController
-
-	
-	
+	def set_band_membership
+		@band_membership = BandMembership.find_by(user_id: current_user.id)
+		@band_membership.role || @band_membership.build_role
+		end
+	def leave_band
+		if current_user.bands.nil?
+		redirect_to band_path
+	else
+		 BandMembership.find_by(user_id: current_user.id).delete
+		 flash[:success] = "Membership terminated"
+		 redirect_to profile_url
+	end
+	end
+	def join_band
+		
+	end
 	def index
 		@band_memberships = BandMembership.all
 	end
@@ -20,19 +33,25 @@ class BandMembershipsController < ApplicationController
 			render 'new'
 		end
 	end
-		private
-
-		def band_membership_params
-			 params.require(:band_membership).permit(:user_id, :band_id, :role, :joinable)
-		end
-
-
 	def role_list
 		BandMembership.pluck(:role).uniq
 	end
 
 	def edit
-		@BandMembership = BandMembership.find(:id)
+		@band_membership = BandMembership.find_by(user_id: current_user.id)
 	end
-	
+
+	def  update
+		@band_membership = BandMembership.find_by(user_id: current_user.id)
+	end
+	def  show
+		@band_membership = BandMembership.find_by(user_id: current_user.id)
+	end
+
+		private
+
+		def band_membership_params
+			params.require(:band_membership).permit(:user_id, :band_id, :role, :joinable)
+		end
+
 end

@@ -1,5 +1,5 @@
 class BandsController < ApplicationController
-	
+	before_action :authenticate_user!
 	def index
 		if params[:user_id]
 			@bands = User.find(params[:user_id]).bands
@@ -34,15 +34,15 @@ end
 def edit
 	@band = Band.find(params[:id])
 end
-
+def show
+	@band = Band.find(params[:id])
+end
 	private
 	
 	def band_params
 		params.require(:band).permit(:name, :description)
 	end
 
-	def show
-		@band = Band.find(params[:id])
-	end
+
 
 end

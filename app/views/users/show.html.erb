@@ -3,7 +3,15 @@
 </h2>
 <hr color="white">
 <h3>
-    <%= link_to "Bands", user_bands_path(@user.id)%>
-</h3>
+<% if !params[:id] && current_user.bands.empty?%>
+<p>You don't have a band yet.</p>
+<%= link_to "Create", "users/#{@user.id}/bands/new" %>
+<p> <%= link_to "Join", bands_path %></p>
 
-<p> View bands joined by <%="#{@user.username}"%> </p>
+<%elsif @user.bands.empty?%>
+<p>User doesn't have any bands yet</p>
+<%else%>
+    <%= link_to "Bands joined by #{@user.username}", user_bands_path(@user.id)%>
+</h3>
+<%end%>
+

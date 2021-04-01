@@ -12,4 +12,11 @@ class UsersController < ApplicationController
 		end
 	end
 
+	def join_band
+		binding.pry
+		@band = Band.find(params[:id])
+		@user = current_user
+		@user.bands << @band
+	end
+
 end

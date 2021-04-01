@@ -3,15 +3,12 @@
 <%= simple_form_for @band do |f| %>
 	<%= f.label :name %>
 	<%= f.label :description %>
-
-	<%= f.label :joinable %>
 	<%= f.button :submit, "Join", class: "btn btn-primary" %>
 	<%end%>
 <% else %>
 <%= simple_form_for @band do |f| %>
 <%= f.input :name %>
 <%= f.input :description %>
-<%= f.check_box "joinable" %>
-<%= f.button :submit, "Create", class: "btn btn-primary"%>
+<%= f.button :submit, "Create", class: "btn btn-primary" %>
 <% end %>
 <%end%>

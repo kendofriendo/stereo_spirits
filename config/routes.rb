@@ -11,5 +11,5 @@ Rails.application.routes.draw do
 
   root to: "application#index"
   get 'profile', to: 'users#show'
-
+  get 'bands/join_band' => 'user#join_band'
 end

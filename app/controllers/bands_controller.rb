@@ -19,7 +19,7 @@ class BandsController < ApplicationController
 			if @band.save				
 				flash[:success] = "Band successfully created"
 				redirect_to @band
-				current_user.bands.create << @band || User.find_by(params[:id]).bands << @band
+				current_user.bands << @band || User.find_by(params[:id]).bands << @band
 			else
 				flash[:error] = "Something went wrong"
 				render 'new'

@@ -1,7 +1,7 @@
 <% @band = Band.find(params[:id])%>
 <% @user = User.find(params[:id] || current_user)%>
 <div>
-<h3 align="center" class="text text-info"> <%= @band.name unless @band.name.nil?%></h3>
+<h3 align="center" class="text text-info"> <%= @band.name %></h3><%=@band.name%>
 <h4 align="center" id="description"><%= @band.description %></h4>
 </div>
 <br>

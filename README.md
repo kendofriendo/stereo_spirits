@@ -28,7 +28,7 @@ Once created, back inside the project directory run `rails credentials:edit` and
         github_client_secret: (your client secret)
 and save the file.
 
-## The [blog post](https://www.kendofriendo.com/projects/3 goes into how I went about creating it.
+## The [blog post](https://www.kendofriendo.com/project/3) goes into how I went about creating it.
 
 App created with:
 

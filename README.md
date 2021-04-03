@@ -5,7 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+App created with:
+
+* Rails 6.1.3.1
 
 * System dependencies
 
@@ -22,3 +24,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY1NDc2ODc4NV19
+-->

@@ -209,16 +209,10 @@ omniauth, A generalized Rack framework for multiple-provider authentication., ht
 omniauth-oauth2, An abstract OAuth2 strategy for OmniAuth., https://github.com/omniauth/omniauth-oauth2
 omniauth-github, Official OmniAuth strategy for GitHub., https://github.com/intridea/omniauth-github
 omniauth-rails_csrf_protection, Provides CSRF protection on OmniAuth request endpoint on Rails application., https://github.com/cookpad/omniauth-rails_csrf_protection
-pry-byebug, Fast debugging with Pry., https://github.com/deivid-rodriguez/pry-byebug
-puma, Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications, https://puma.io
-rack-livereload, Insert LiveReload into your app easily as Rack middleware, https://github.com/onesupercoder/rack-livereload
-rack-mini-profiler, Profiles loading speed for rack applications., https://miniprofiler.com
-rack-proxy, A request/response rewriting HTTP proxy. A Rack app., https://github.com/ncr/rack-proxy
-rails, Full-stack web application framework., https://rubyonrails.org
-sass-rails, Sass adapter for the Rails asset pipeline., https://github.com/rails/sass-rails
-scoped_search, Easily search you ActiveRecord models with a simple query language using a named scope, https://github.com/wvanbergen/scoped_search/wiki
-semantic_range, node-semver rewritten in ruby, for comparison and inclusion of semantic versions and ranges, https://libraries.io/github/librariesio/semantic_range
-simple_form, Forms made easy!, https://github.com/heartcombo/simple_form
+
+[pry-byebug, Fast debugging with Pry.](https://github.com/deivid-rodriguez/pry-byebug)
+
+[simple_form, Forms made easy!](https://github.com/heartcombo/simple_form)
 
 
 
@@ -227,5 +221,5 @@ simple_form, Forms made easy!, https://github.com/heartcombo/simple_form
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDM1MjQ4M119
+eyJoaXN0b3J5IjpbMTkxNDQ0NjQ1XX0=
 -->

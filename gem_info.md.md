@@ -4,10 +4,6 @@ better_errors, Better error page for Rails and other Rack apps, https://github.c
 
 popper_js, Popper.js assets as a Ruby gem. https://popper.js.org/, https://github.com/glebm/popper_js-rubygem
 
-sprockets, Rack-based asset packaging system, https://github.com/rails/sprockets
-sprockets-rails, Sproc
-
-
 [bootstrap, The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.](https://github.com/twbs/bootstrap-rubygem) 
 
 [devise, Flexible authentication solution for Rails with Warden](https://github.com/heartcombo/devise)
@@ -42,5 +38,5 @@ sprockets-rails, Sproc
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzQwNjM2MF19
+eyJoaXN0b3J5IjpbLTE1OTU3NTY2MzRdfQ==
 -->

@@ -46,29 +46,58 @@ Nokogiri (鋸) makes it easy and painless to work with XML and HTML from Ruby., 
 
 rails-dom-testing,
 
-Dom and Selector assertions for Rails applications, https://github.com/rails/rails-dom-testing
+Dom and Selector assertions for Rails applications, 
+https://github.com/rails/rails-dom-testing
+
 crass,
+
 CSS parser based on the CSS Syntax Level 3 spec., https://github.com/rgrove/crass/
+
 loofah,
+
 Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri, https://github.com/flavorjones/loofah
+
 rails-html-sanitizer, 
+
 This gem is responsible to sanitize HTML fragments in Rails applications., https://github.com/rails/rails-html-sanitizer
-actionview, Rendering framework putting the V in MVC (part of Rails)., https://rubyonrails.org
+
+actionview, 
+
+Rendering framework putting the V in MVC (part of Rails)., https://rubyonrails.org
+
 rack,
+
 A modular Ruby webserver interface., https://github.com/rack/rack
+
 rack-test,
+
 Simple testing API built on Rack, http://github.com/rack-test/rack-test
+
 actionpack,
+
 Web-flow and rendering framework putting the VC in MVC (part of Rails)., https://rubyonrails.org
+
 nio4r,
+
 New IO for Ruby, https://github.com/socketry/nio4r
+
 websocket-extensions,
-Generic extension manager for WebSocket connections, https://github.com/faye/websocket-extensions-ruby
+
+Generic extension manager for WebSocket connections, 
+https://github.com/faye/websocket-extensions-ruby
+
 websocket-driver, 
-WebSocket protocol handler with pluggable I/O, https://github.com/faye/websocket-driver-ruby
+
+WebSocket protocol handler with pluggable I/O, 
+https://github.com/faye/websocket-driver-ruby
+
 actioncable,
+
 WebSocket framework for Rails., https://rubyonrails.org
-globalid, Refer to any model with a URI: gid://app/class/id, http://www.rubyonrails.org
+
+globalid, 
+
+Refer to any model with a URI: gid://app/class/id, http://www.rubyonrails.org
 activejob, Job framework with pluggable queues., https://rubyonrails.org
 activemodel, A toolkit for building modeling frameworks (part of Rails)., https://rubyonrails.org
 activerecord, Object-relational mapper framework (part of Rails)., https://rubyonrails.org
@@ -159,5 +188,5 @@ webpacker, Use webpack to manage app-like JavaScript modules in Rails, https://g
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcwMzMxNDJdfQ==
+eyJoaXN0b3J5IjpbMjAwNzI0MzQwXX0=
 -->

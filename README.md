@@ -70,23 +70,7 @@ App created with:
 
 **Gemfile**
 
-System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTk3MTk0NiwtNjk1NjQxNTY4LDc1NT
-g1MDczLC02NTQ3Njg3ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMTcyODg2MDcsLTY5NTY0MTU2OCw3NT
+U4NTA3MywtNjU0NzY4Nzg1XX0=
 -->

@@ -17,6 +17,8 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 
 * Access the site via localhost:3000
 
+If you would like to use github to sign in, you'll need to first create your own application 
+
 App created with:
 
     Rails version             6.1.3.1
@@ -85,6 +87,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDg4MzI5NiwtNjk1NjQxNTY4LDc1NT
+eyJoaXN0b3J5IjpbMTc1NTk3MTk0NiwtNjk1NjQxNTY4LDc1NT
 g1MDczLC02NTQ3Njg3ODVdfQ==
 -->

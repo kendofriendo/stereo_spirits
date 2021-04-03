@@ -161,11 +161,7 @@ binding_of_caller, Retrieve the binding of a method's caller, or further up the 
 msgpack, MessagePack, a binary-based efficient data interchange format., http://msgpack.org/
 bootsnap, Boot large ruby/rails apps faster, https://github.com/Shopify/bootsnap
 popper_js, Popper.js assets as a Ruby gem. https://popper.js.org/, https://github.com/glebm/popper_js-rubygem
-method_source, retrieve the sourcecode for a method, http://banisterfiend.wordpress.com
-thor, Thor is a toolkit for building powerful command-line interfaces., http://whatisthor.com/
-railties, Tools for creating, working with, and running Rails applications., https://rubyonrails.org
-ffi, Ruby FFI, https://github.com/ffi/ffi/wiki
-sassc, Use libsass with Ruby!, https://github.com/sass/sassc-ruby
+
 sprockets, Rack-based asset packaging system, https://github.com/rails/sprockets
 sprockets-rails, Sprockets Rails integration, https://github.com/rails/sprockets-rails
 tilt, Generic interface to multiple Ruby template engines, http://github.com/rtomayko/tilt/
@@ -207,5 +203,5 @@ tilt, Generic interface to multiple Ruby template engines, http://github.com/rto
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTczMTAxXX0=
+eyJoaXN0b3J5IjpbNjM1MDA5MDk4XX0=
 -->

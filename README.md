@@ -15,7 +15,7 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 	* `rails db:drop`
 	* `rails db:setup`
 
-* 
+* Access the site via localhost:3000
 
 App created with:
 
@@ -85,6 +85,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODQwMDMxNiwtNjk1NjQxNTY4LDc1NT
+eyJoaXN0b3J5IjpbLTgwMDg4MzI5NiwtNjk1NjQxNTY4LDc1NT
 g1MDczLC02NTQ3Njg3ODVdfQ==
 -->

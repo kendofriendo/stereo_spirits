@@ -1,6 +1,23 @@
 # README
 
-Project demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for  
+Project 3 for Flatiron demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for github session sign-in. 
+
+* System dependencies
+	Ruby, rails, and abilitto localhost connection.
+	
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
 
 App created with:
 
@@ -70,6 +87,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTA3ODY5LC02OTU2NDE1NjgsNzU1OD
+eyJoaXN0b3J5IjpbNzI5NzkzMTU0LC02OTU2NDE1NjgsNzU1OD
 UwNzMsLTY1NDc2ODc4NV19
 -->

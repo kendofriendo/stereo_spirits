@@ -193,18 +193,14 @@ lumberjack, A simple, powerful, and very fast logging utility that can be a drop
 nenv, Convenience wrapper for Ruby's ENV, https://github.com/e2/nenv
 shellany, Simple, somewhat portable command capturing, 
 notiffany, Notifier library (extracted from Guard project), https://github.com/guard/notiffany
-pry, A runtime developer console and IRB alternative with powerful introspection capabilities., http://pry.github.io
-guard, Guard keeps an eye on your file modifications, http://guardgem.org
-guard-compat, Tools for developing Guard compatible plugins, 
-multi_json, A common interface to multiple JSON libraries., https://github.com/intridea/multi_json
-guard-livereload, Guard plugin for livereload, https://rubygems.org/gems/guard-livereload
-hashie, Your friendly neighborhood hash library., https://github.com/hashie/hashie
-jbuilder, Create JSON structures via a Builder-style DSL, https://github.com/rails/jbuilder
-jquery-rails, Use jQuery with Rails 4+, https://github.com/rails/jquery-rails
-jwt, JSON Web Token implementation in Ruby, https://github.com/jwt/ruby-jwt
-multi_xml, A generic swappable back-end for XML parsing, https://github.com/sferik/multi_xml
-oauth2, A Ruby wrapper for the OAuth 2.0 protocol., https://github.com/oauth-xx/oauth2
-rack-protection, Protect against typical web attacks, works with all Rack apps, including Rails., http://sinatrarb.com/protection/
+pry, A runtime developer console and IRB alternative with powerful introspection capabilities., 
+
+[guard, Guard keeps an eye on your file modifications,](http://guardgem.org) 
+
+[guard-livereload, Guard plugin for livereload](https://rubygems.org/gems/guard-livereload)
+
+[jquery-rails, Use jQuery with Rails 4+](https://github.com/rails/jquery-rails)
+
 
 [omniauth, A generalized Rack framework for multiple-provider authentication.](https://github.com/omniauth/omniauth)
 
@@ -225,5 +221,5 @@ rack-protection, Protect against typical web attacks, works with all Rack apps, 
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2Mzg4NTczXX0=
+eyJoaXN0b3J5IjpbMTE2NTE3NDk1OV19
 -->

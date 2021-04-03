@@ -3,11 +3,28 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
 App created with:
 
-* Rails 6.1.3.1
+``
+Rails version             6.1.3.1
+
+Ruby version              ruby 3.0.0p0 (2020-12-25 revision 95aff21468) 
+[x86_64-linux]
+
+RubyGems version          3.2.3
+
+Rack version              2.2.3
+
+JavaScript Runtime        Node.js (V8)
+
+Middleware                Webpacker::DevServerProxy,
+ Rack::MiniProfiler, 
+ActionDispatch::HostAuthorization,
+ Rack::Sendfile, ActionDispatch::Static, ActionDispatch::Executor, Rack::LiveReload, ActiveSupport::Cache::Strategy::LocalCache::Middleware, Rack::Runtime, Rack::MethodOverride, ActionDispatch::RequestId, ActionDispatch::RemoteIp, Sprockets::Rails::QuietAssets, Rails::Rack::Logger, ActionDispatch::ShowExceptions, WebConsole::Middleware, ActionDispatch::DebugExceptions, BetterErrors::Middleware, ActionDispatch::ActionableExceptions, ActionDispatch::Reloader, ActionDispatch::Callbacks, ActiveRecord::Migration::CheckPending, ActionDispatch::Cookies, ActionDispatch::Session::CookieStore, ActionDispatch::Flash, ActionDispatch::ContentSecurityPolicy::Middleware, ActionDispatch::PermissionsPolicy::Middleware, Rack::Head, Rack::ConditionalGet, Rack::ETag, Rack::TempfileReaper, Warden::Manager, OmniAuth::Strategies::GitHub
+Environment               development
+Database adapter          sqlite3
+Database schema version   20210330202156
+``
 
 * System dependencies
 
@@ -25,5 +42,5 @@ App created with:
 
 * ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDc2ODc4NV19
+eyJoaXN0b3J5IjpbLTQxNjI3NzQ5LC02NTQ3Njg3ODVdfQ==
 -->

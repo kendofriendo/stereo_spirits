@@ -169,13 +169,11 @@ sassc, Use libsass with Ruby!, https://github.com/sass/sassc-ruby
 sprockets, Rack-based asset packaging system, https://github.com/rails/sprockets
 sprockets-rails, Sprockets Rails integration, https://github.com/rails/sprockets-rails
 tilt, Generic interface to multiple Ruby template engines, http://github.com/rtomayko/tilt/
-sassc-rails, Integrate SassC-Ruby into Rails., https://github.com/sass/sassc-rails
-bootstrap, The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. http://getbootstrap.com, https://github.com/twbs/bootstrap-rubygem
-bundler, The best way to manage your application's dependencies, https://bundler.io
-byebug, Ruby fast debugger - base + CLI, https://github.com/deivid-rodriguez/byebug
-orm_adapter, orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs., http://github.com/ianwhite/orm_adapter
-responders, A set of Rails responders to dry up your application, https://github.com/heartcombo/responders
-warden, An authentication library compatible with all Rack-based frameworks, https://github.com/hassox/warden
+
+[sassc-rails, Integrate SassC-Ruby into Rails.](https://github.com/sass/sassc-rails)
+[bootstrap, The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.](https://github.com/twbs/bootstrap-rubygem) 
+
+[byebug, Ruby fast debugger - base + CLI](https://github.com/deivid-rodriguez/byebug) 
 
 [devise, Flexible authentication solution for Rails with Warden](https://github.com/heartcombo/devise)
 
@@ -209,5 +207,5 @@ warden, An authentication library compatible with all Rack-based frameworks, htt
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDE0NDgxNV19
+eyJoaXN0b3J5IjpbMTE3MTczMTAxXX0=
 -->

@@ -45,12 +45,12 @@ App created with:
     Warden::Manager,
     OmniAuth::Strategies::GitHub
 
-**Environment**               development
-**Database adapter**          sqlite3
-**Database schema version**   20210330202156
+**Environment**               `development`
+**Database adapter**          `sqlite3`
+**Database schema version**   `20210330202156`
 
 
-* System dependencies
+System dependencies
 
 * Configuration
 
@@ -67,5 +67,5 @@ App created with:
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTgwODIxLC02NTQ3Njg3ODVdfQ==
+eyJoaXN0b3J5IjpbNzU1ODUwNzMsLTY1NDc2ODc4NV19
 -->

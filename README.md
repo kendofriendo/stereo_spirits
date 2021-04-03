@@ -21,10 +21,13 @@ If you would like to use github to sign in, you'll need to first [create your ow
 Set the home page to http://127.0.0.1/users/auth/github
 and set the authorization callback url to http://127.0.0.1:3000/users/auth/github/callback
 
-Once created, back inside the project directory run `rails credentials:edit` and enter 
-github:
-    github_client_id: 
-    github_client_secret: c71dee449485d6dc12afcd70ecf1651b38679aaf
+Once created, back inside the project directory run `rails credentials:edit` and enter
+ 
+
+    github:
+        github_client_id: (your client id)
+        github_client_secret: (your client secret)
+and save the file.
 
 App created with:
 
@@ -78,6 +81,6 @@ App created with:
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzIzODM3NCwtMTAxNzI4ODYwNywtNj
+eyJoaXN0b3J5IjpbMjEzOTMxMzk1MiwtMTAxNzI4ODYwNywtNj
 k1NjQxNTY4LDc1NTg1MDczLC02NTQ3Njg3ODVdfQ==
 -->

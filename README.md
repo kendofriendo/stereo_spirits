@@ -1,6 +1,6 @@
 # README
 
-Project 3 for Flatiron demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for github session sign-in. 
+## Project 3 for Flatiron demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for github session sign-in. 
 
 * System dependencies
 	Ruby, rails, and ability to access localhost connection.
@@ -27,6 +27,8 @@ Once created, back inside the project directory run `rails credentials:edit` and
         github_client_id: (your client id)
         github_client_secret: (your client secret)
 and save the file.
+
+## The [blog post](https://www.kendofriendo.com/projects/3 goes into how I went about creating it.
 
 App created with:
 

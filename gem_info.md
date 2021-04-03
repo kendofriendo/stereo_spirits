@@ -1,8 +1,8 @@
-awesome_print, Pretty print Ruby objects with proper indentation and colors, https://github.com/awesome-print/awesome_print
+[awesome_print, Pretty print Ruby objects with proper indentation and colors](https://github.com/awesome-print/awesome_print)
 
-better_errors, Better error page for Rails and other Rack apps, https://github.com/BetterErrors/better_errors
+[better_errors, Better error page for Rails and other Rack apps](https://github.com/BetterErrors/better_errors)
 
-popper_js, Popper.js assets as a Ruby gem. https://popper.js.org/, https://github.com/glebm/popper_js-rubygem
+[popper_js, Popper.js assets as a Ruby gem.](https://popper.js.org/)
 
 [bootstrap, The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.](https://github.com/twbs/bootstrap-rubygem) 
 
@@ -17,7 +17,6 @@ popper_js, Popper.js assets as a Ruby gem. https://popper.js.org/, https://githu
 [guard-livereload, Guard plugin for livereload](https://rubygems.org/gems/guard-livereload)
 
 [jquery-rails, Use jQuery with Rails 4+](https://github.com/rails/jquery-rails)
-
 
 [omniauth, A generalized Rack framework for multiple-provider authentication.](https://github.com/omniauth/omniauth)
 

@@ -151,15 +151,11 @@ Run JavaScript code from Ruby, https://github.com/rails/execjs
 autoprefixer-rails, 
 
 Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website., https://github.com/ai/autoprefixer-rails
+
 awesome_print, Pretty print Ruby objects with proper indentation and colors, https://github.com/awesome-print/awesome_print
-bcrypt, OpenBSD's bcrypt() password hashing algorithm., https://github.com/codahale/bcrypt-ruby
-coderay, Fast syntax highlighting for selected languages., http://coderay.rubychan.de
+
 better_errors, Better error page for Rails and other Rack apps, https://github.com/BetterErrors/better_errors
-bindex, Bindings for your Ruby exceptions, https://github.com/gsamokovarov/bindex
-debug_inspector, A Ruby wrapper for the MRI 2.0 debug_inspector API, https://github.com/banister/debug_inspector
-binding_of_caller, Retrieve the binding of a method's caller, or further up the stack., https://github.com/banister/binding_of_caller
-msgpack, MessagePack, a binary-based efficient data interchange format., http://msgpack.org/
-bootsnap, Boot large ruby/rails apps faster, https://github.com/Shopify/bootsnap
+
 popper_js, Popper.js assets as a Ruby gem. https://popper.js.org/, https://github.com/glebm/popper_js-rubygem
 
 sprockets, Rack-based asset packaging system, https://github.com/rails/sprockets
@@ -203,5 +199,5 @@ tilt, Generic interface to multiple Ruby template engines, http://github.com/rto
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1MDA5MDk4XX0=
+eyJoaXN0b3J5IjpbNjU1MzcxMTIwXX0=
 -->

@@ -88,7 +88,9 @@ https://github.com/faye/websocket-extensions-ruby
 
 websocket-driver, 
 
-WebSocket protocol handler with pluggable I/O, 
+WebSocket
+
+ protocol handler with pluggable I/O, 
 https://github.com/faye/websocket-driver-ruby
 
 actioncable,
@@ -97,18 +99,53 @@ WebSocket framework for Rails., https://rubyonrails.org
 
 globalid, 
 
-Refer to any model with a URI: gid://app/class/id, http://www.rubyonrails.org
-activejob, Job framework with pluggable queues., https://rubyonrails.org
-activemodel, A toolkit for building modeling frameworks (part of Rails)., https://rubyonrails.org
-activerecord, Object-relational mapper framework (part of Rails)., https://rubyonrails.org
-marcel, Simple mime type detection using magic numbers, filenames, and extensions, https://github.com/basecamp/marcel
-mini_mime, A lightweight mime type lookup toy, https://github.com/discourse/mini_mime
-activestorage, Local and cloud file storage framework., https://rubyonrails.org
-mail, Mail provides a nice Ruby DSL for making, sending and reading emails., https://github.com/mikel/mail
-actionmailbox, Inbound email handling framework., https://rubyonrails.org
-actionmailer, Email composition and delivery framework (part of Rails)., https://rubyonrails.org
-actiontext, Rich text framework., https://rubyonrails.org
+Refer to any model with a URI: gid://app/class/id, 
+http://www.rubyonrails.org
+
+activejob, 
+
+Job framework with pluggable queues., https://rubyonrails.org
+
+activemodel, 
+
+A toolkit for building modeling frameworks (part of Rails)., https://rubyonrails.org
+
+activerecord,
+
+Object-relational mapper framework (part of Rails)., https://rubyonrails.org
+
+marcel,
+
+Simple mime type detection using magic numbers, filenames, and extensions, https://github.com/basecamp/marcel
+
+mini_mime, 
+
+A lightweight mime type lookup toy, https://github.com/discourse/mini_mime
+
+activestorage,
+
+Local and cloud file storage framework., 
+https://rubyonrails.org
+
+mail,
+
+Mail provides a nice Ruby DSL for making, sending and reading emails., https://github.com/mikel/mail
+
+actionmailbox, 
+
+Inbound email handling framework., https://rubyonrails.org
+
+actionmailer,
+
+Email composition and delivery framework (part of Rails)., 
+https://rubyonrails.org
+
+actiontext,
+
+Rich text framework., https://rubyonrails.org
+
 execjs, Run JavaScript code from Ruby, https://github.com/rails/execjs
+
 autoprefixer-rails, Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website., https://github.com/ai/autoprefixer-rails
 awesome_print, Pretty print Ruby objects with proper indentation and colors, https://github.com/awesome-print/awesome_print
 bcrypt, OpenBSD's bcrypt() password hashing algorithm., https://github.com/codahale/bcrypt-ruby
@@ -188,5 +225,5 @@ webpacker, Use webpack to manage app-like JavaScript modules in Rails, https://g
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzI0MzQwXX0=
+eyJoaXN0b3J5IjpbMTI3MTc2OTM1MF19
 -->

@@ -12,8 +12,7 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 	* `rails server`
 
 * To create the database, initialize, and seed it:
-	* `rails db:drop`
-	* `rails db:setup`
+	* `rails db:setup RAILS_ENV=development`
 
 * Access the site via localhost:3000, sign up, and start clicking on things.
 

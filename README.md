@@ -18,8 +18,13 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 * Access the site via localhost:3000, sign up, and start clicking on things.
 
 If you would like to use github to sign in, you'll need to first [create your own oauth application](https://github.com/settings/developers) .
+Set the home page to http://127.0.0.1/users/auth/github
+and set the authorization callback url to http://127.0.0.1:3000/users/auth/github/callback
 
-Once created 
+Once created, back inside the project directory run `rails credentials:edit` and enter 
+github:
+    github_client_id: 
+    github_client_secret: c71dee449485d6dc12afcd70ecf1651b38679aaf
 
 App created with:
 
@@ -73,6 +78,6 @@ App created with:
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4Mzk1OTk4LC0xMDE3Mjg4NjA3LC02OT
-U2NDE1NjgsNzU1ODUwNzMsLTY1NDc2ODc4NV19
+eyJoaXN0b3J5IjpbLTY3NzIzODM3NCwtMTAxNzI4ODYwNywtNj
+k1NjQxNTY4LDc1NTg1MDczLC02NTQ3Njg3ODVdfQ==
 -->

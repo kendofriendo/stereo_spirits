@@ -6,22 +6,36 @@ i18n,
 New wave Internationalization support for Ruby, https://github.com/ruby-i18n/i18n
 minitest, 
 minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking, https://github.com/seattlerb/minitest
-tzinfo, Time Zone Library, https://tzinfo.github.io
-zeitwerk, Efficient and thread-safe constant autoloader, https://github.com/fxn/zeitwerk
-activesupport, A toolkit of support libraries and Ruby core extensions extracted from the Rails framework., https://rubyonrails.org
-builder, Builders for MarkUp., http://onestepback.org
-erubi, Small ERB Implementation, https://github.com/jeremyevans/erubi
+tzinfo, 
+Time Zone Library, https://tzinfo.github.io
+zeitwerk,
+Efficient and thread-safe constant autoloader, https://github.com/fxn/zeitwerk
+activesupport,
+A toolkit of support libraries and Ruby core extensions extracted from the Rails framework., https://rubyonrails.org
+builder, 
+Builders for MarkUp., http://onestepback.org
+erubi,
+Small ERB Implementation, https://github.com/jeremyevans/erubi
 racc, Racc is a LALR(1) parser generator, http://i.loveruby.net/en/projects/racc/
-nokogiri, Nokogiri (鋸) makes it easy and painless to work with XML and HTML from Ruby., https://nokogiri.org
-rails-dom-testing, Dom and Selector assertions for Rails applications, https://github.com/rails/rails-dom-testing
-crass, CSS parser based on the CSS Syntax Level 3 spec., https://github.com/rgrove/crass/
-loofah, Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri, https://github.com/flavorjones/loofah
-rails-html-sanitizer, This gem is responsible to sanitize HTML fragments in Rails applications., https://github.com/rails/rails-html-sanitizer
+nokogiri,
+Nokogiri (鋸) makes it easy and painless to work with XML and HTML from Ruby., https://nokogiri.org
+rails-dom-testing,
+Dom and Selector assertions for Rails applications, https://github.com/rails/rails-dom-testing
+crass,
+CSS parser based on the CSS Syntax Level 3 spec., https://github.com/rgrove/crass/
+loofah,
+Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri, https://github.com/flavorjones/loofah
+rails-html-sanitizer, 
+This gem is responsible to sanitize HTML fragments in Rails applications., https://github.com/rails/rails-html-sanitizer
 actionview, Rendering framework putting the V in MVC (part of Rails)., https://rubyonrails.org
-rack, A modular Ruby webserver interface., https://github.com/rack/rack
-rack-test, Simple testing API built on Rack, http://github.com/rack-test/rack-test
-actionpack, Web-flow and rendering framework putting the VC in MVC (part of Rails)., https://rubyonrails.org
-nio4r, New IO for Ruby, https://github.com/socketry/nio4r
+rack,
+A modular Ruby webserver interface., https://github.com/rack/rack
+rack-test,
+Simple testing API built on Rack, http://github.com/rack-test/rack-test
+actionpack,
+Web-flow and rendering framework putting the VC in MVC (part of Rails)., https://rubyonrails.org
+nio4r,
+New IO for Ruby, https://github.com/socketry/nio4r
 websocket-extensions, Generic extension manager for WebSocket connections, https://github.com/faye/websocket-extensions-ruby
 websocket-driver, WebSocket protocol handler with pluggable I/O, https://github.com/faye/websocket-driver-ruby
 actioncable, WebSocket framework for Rails., https://rubyonrails.org
@@ -116,5 +130,5 @@ webpacker, Use webpack to manage app-like JavaScript modules in Rails, https://g
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYyNjk4NDJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDIzNzQzOTRdfQ==
 -->

@@ -15,9 +15,9 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 	* `rails db:drop`
 	* `rails db:setup`
 
-* Access the site via localhost:3000
+* Access the site via localhost:3000, sign up, and start clicking on things.
 
-If you would like to use github to sign in, you'll need to first create your own application 
+If you would like to use github to sign in, you'll need to first create your own oauth application 
 
 App created with:
 
@@ -69,8 +69,8 @@ App created with:
   `20210330202156`
 
 **Gemfile**
-
+https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcyODg2MDcsLTY5NTY0MTU2OCw3NT
-U4NTA3MywtNjU0NzY4Nzg1XX0=
+eyJoaXN0b3J5IjpbLTcwNzg3MjQxNywtMTAxNzI4ODYwNywtNj
+k1NjQxNTY4LDc1NTg1MDczLC02NTQ3Njg3ODVdfQ==
 -->

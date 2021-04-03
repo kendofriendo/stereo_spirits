@@ -176,26 +176,14 @@ byebug, Ruby fast debugger - base + CLI, https://github.com/deivid-rodriguez/bye
 orm_adapter, orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs., http://github.com/ianwhite/orm_adapter
 responders, A set of Rails responders to dry up your application, https://github.com/heartcombo/responders
 warden, An authentication library compatible with all Rack-based frameworks, https://github.com/hassox/warden
-devise, Flexible authentication solution for Rails with Warden, https://github.com/heartcombo/devise
-eventmachine, Ruby/EventMachine library, http://rubyeventmachine.com
-http_parser.rb, Simple callback-based HTTP request/response parser, http://github.com/tmm1/http_parser.rb
-em-websocket, EventMachine based WebSocket server, http://github.com/igrigorik/em-websocket
-faker, Easily generate fake data, https://github.com/faker-ruby/faker
-faraday-net_http, Faraday adapter for Net::HTTP, https://github.com/lostisland/faraday-net_http
-multipart-post, A multipart form post accessory for Net::HTTP., https://github.com/nicksieger/multipart-post
-ruby2_keywords, Shim library for Module#ruby2_keywords, https://github.com/ruby/ruby2_keywords
-faraday, HTTP/REST API client library., https://lostisland.github.io/faraday
-formatador, Ruby STDOUT text formatting, http://github.com/geemus/formatador
-rb-fsevent, Very simple & usable FSEvents API, http://rubygems.org/gems/rb-fsevent
-rb-inotify, A Ruby wrapper for Linux inotify, using FFI, https://github.com/guard/rb-inotify
-listen, Listen to file modifications, https://github.com/guard/listen
-lumberjack, A simple, powerful, and very fast logging utility that can be a drop in replacement for Logger or ActiveSupport::BufferedLogger., https://github.com/bdurand/lumberjack
-nenv, Convenience wrapper for Ruby's ENV, https://github.com/e2/nenv
-shellany, Simple, somewhat portable command capturing, 
-notiffany, Notifier library (extracted from Guard project), https://github.com/guard/notiffany
-pry, A runtime developer console and IRB alternative with powerful introspection capabilities., 
 
-[guard, Guard keeps an eye on your file modifications,](http://guardgem.org) 
+[devise, Flexible authentication solution for Rails with Warden](https://github.com/heartcombo/devise)
+
+[faker, Easily generate fake data](https://github.com/faker-ruby/faker), 
+
+[pry, A runtime developer console and IRB alternative with powerful introspection capabilities.](http://pry.github.io)
+
+[guard, Guard keeps an eye on your file modifications](http://guardgem.org) 
 
 [guard-livereload, Guard plugin for livereload](https://rubygems.org/gems/guard-livereload)
 
@@ -221,5 +209,5 @@ pry, A runtime developer console and IRB alternative with powerful introspection
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTE3NDk1OV19
+eyJoaXN0b3J5IjpbMTU2NDE0NDgxNV19
 -->

@@ -30,7 +30,9 @@ and save the file.
 
 ## The [blog post](https://www.kendofriendo.com/project/3) goes into how I went about creating it.
 
-App created with:
+---
+
+### System configuration details via `rails about`:
 
     Rails version             6.1.3.1
     

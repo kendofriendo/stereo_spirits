@@ -205,10 +205,14 @@ jwt, JSON Web Token implementation in Ruby, https://github.com/jwt/ruby-jwt
 multi_xml, A generic swappable back-end for XML parsing, https://github.com/sferik/multi_xml
 oauth2, A Ruby wrapper for the OAuth 2.0 protocol., https://github.com/oauth-xx/oauth2
 rack-protection, Protect against typical web attacks, works with all Rack apps, including Rails., http://sinatrarb.com/protection/
-omniauth, A generalized Rack framework for multiple-provider authentication., https://github.com/omniauth/omniauth
-omniauth-oauth2, An abstract OAuth2 strategy for OmniAuth., https://github.com/omniauth/omniauth-oauth2
-omniauth-github, Official OmniAuth strategy for GitHub., https://github.com/intridea/omniauth-github
-omniauth-rails_csrf_protection, Provides CSRF protection on OmniAuth request endpoint on Rails application., https://github.com/cookpad/omniauth-rails_csrf_protection
+
+[omniauth, A generalized Rack framework for multiple-provider authentication.](https://github.com/omniauth/omniauth)
+
+[omniauth-oauth2, An abstract OAuth2 strategy for OmniAuth.](https://github.com/omniauth/omniauth-oauth2)
+
+[omniauth-github, Official OmniAuth strategy for GitHub.](https://github.com/intridea/omniauth-github)
+
+[omniauth-rails_csrf_protection, Provides CSRF protection on OmniAuth request endpoint on Rails application.](https://github.com/cookpad/omniauth-rails_csrf_protection)
 
 [pry-byebug, Fast debugging with Pry.](https://github.com/deivid-rodriguez/pry-byebug)
 
@@ -221,5 +225,5 @@ omniauth-rails_csrf_protection, Provides CSRF protection on OmniAuth request end
     > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDQ0NjQ1XX0=
+eyJoaXN0b3J5IjpbMzc2Mzg4NTczXX0=
 -->

@@ -144,9 +144,13 @@ actiontext,
 
 Rich text framework., https://rubyonrails.org
 
-execjs, Run JavaScript code from Ruby, https://github.com/rails/execjs
+execjs,
 
-autoprefixer-rails, Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website., https://github.com/ai/autoprefixer-rails
+Run JavaScript code from Ruby, https://github.com/rails/execjs
+
+autoprefixer-rails, 
+
+Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website., https://github.com/ai/autoprefixer-rails
 awesome_print, Pretty print Ruby objects with proper indentation and colors, https://github.com/awesome-print/awesome_print
 bcrypt, OpenBSD's bcrypt() password hashing algorithm., https://github.com/codahale/bcrypt-ruby
 coderay, Fast syntax highlighting for selected languages., http://coderay.rubychan.de
@@ -215,15 +219,13 @@ sass-rails, Sass adapter for the Rails asset pipeline., https://github.com/rails
 scoped_search, Easily search you ActiveRecord models with a simple query language using a named scope, https://github.com/wvanbergen/scoped_search/wiki
 semantic_range, node-semver rewritten in ruby, for comparison and inclusion of semantic versions and ranges, https://libraries.io/github/librariesio/semantic_range
 simple_form, Forms made easy!, https://github.com/heartcombo/simple_form
-spring, Rails application preloader, https://github.com/rails/spring
-sqlite3, This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org), https://github.com/sparklemotion/sqlite3-ruby
-turbolinks-source, Turbolinks JavaScript assets, https://github.com/turbolinks/turbolinks-source-gem
-turbolinks, Turbolinks makes navigating your web application faster, https://github.com/turbolinks/turbolinks
-web-console, A debugging tool for your Ruby on Rails applications., https://github.com/rails/web-console
-webpacker, Use webpack to manage app-like JavaScript modules in Rails, https://github.com/rails/webpacker
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+
+    > Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTc2OTM1MF19
+eyJoaXN0b3J5IjpbMTc0MDM1MjQ4M119
 -->

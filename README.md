@@ -3,12 +3,16 @@
 Project 3 for Flatiron demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for github session sign-in. 
 
 * System dependencies
-	Ruby, rails, and abilitto localhost connection.
+	Ruby, rails, and ability to access localhost connection.
 	
 * Configuration
+	* `git clone https://github.com/kendofriendo/stereo_spirits`
+	* `cd stereo_spirits`
+	* `bundle install`
+	* `rails server`
 
 * Database creation
-
+	`
 * Database initialization
 
 * How to run the test suite
@@ -87,6 +91,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NzkzMTU0LC02OTU2NDE1NjgsNzU1OD
-UwNzMsLTY1NDc2ODc4NV19
+eyJoaXN0b3J5IjpbMTMxNzU1NTkwNywtNjk1NjQxNTY4LDc1NT
+g1MDczLC02NTQ3Njg3ODVdfQ==
 -->

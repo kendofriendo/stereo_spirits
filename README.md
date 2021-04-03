@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project demonstrates a web application built with Ruby on Rails using Devise for user authentication and Omniauth for  
 
 App created with:
 
@@ -71,6 +70,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTY0MTU2OCw3NTU4NTA3MywtNjU0Nz
-Y4Nzg1XX0=
+eyJoaXN0b3J5IjpbODgyMTA3ODY5LC02OTU2NDE1NjgsNzU1OD
+UwNzMsLTY1NDc2ODc4NV19
 -->

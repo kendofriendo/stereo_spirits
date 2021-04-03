@@ -18,9 +18,30 @@ Rack version              2.2.3
 JavaScript Runtime        Node.js (V8)
 
 Middleware                Webpacker::DevServerProxy,
- Rack::MiniProfiler, 
+Rack::MiniProfiler, 
 ActionDispatch::HostAuthorization,
- Rack::Sendfile, ActionDispatch::Static, ActionDispatch::Executor, Rack::LiveReload, ActiveSupport::Cache::Strategy::LocalCache::Middleware, Rack::Runtime, Rack::MethodOverride, ActionDispatch::RequestId, ActionDispatch::RemoteIp, Sprockets::Rails::QuietAssets, Rails::Rack::Logger, ActionDispatch::ShowExceptions, WebConsole::Middleware, ActionDispatch::DebugExceptions, BetterErrors::Middleware, ActionDispatch::ActionableExceptions, ActionDispatch::Reloader, ActionDispatch::Callbacks, ActiveRecord::Migration::CheckPending, ActionDispatch::Cookies, ActionDispatch::Session::CookieStore, ActionDispatch::Flash, ActionDispatch::ContentSecurityPolicy::Middleware, ActionDispatch::PermissionsPolicy::Middleware, Rack::Head, Rack::ConditionalGet, Rack::ETag, Rack::TempfileReaper, Warden::Manager, OmniAuth::Strategies::GitHub
+Rack::Sendfile, ActionDispatch::Static,
+ActionDispatch::Executor, Rack::LiveReload, ActiveSupport::Cache::Strategy::LocalCache::Middleware,
+Rack::Runtime, Rack::MethodOverride,
+ActionDispatch::RequestId,
+ActionDispatch::RemoteIp,
+Sprockets::Rails::QuietAssets,
+Rails::Rack::Logger,
+ActionDispatch::ShowExceptions,
+WebConsole::Middleware, 
+ActionDispatch::DebugExceptions,
+BetterErrors::Middleware,
+ActionDispatch::ActionableExceptions,
+ActionDispatch::Reloader,
+ActionDispatch::Callbacks,
+ActiveRecord::Migration::CheckPending,
+ActionDispatch::Cookies,
+ActionDispatch::Session::CookieStore,
+ActionDispatch::Flash,
+ActionDispatch::ContentSecurityPolicy::Middleware, ActionDispatch::PermissionsPolicy::Middleware,
+Rack::Head, Rack::ConditionalGet,
+Rack::ETag, Rack::TempfileReaper,
+Warden::Manager, OmniAuth::Strategies::GitHub
 Environment               development
 Database adapter          sqlite3
 Database schema version   20210330202156
@@ -42,5 +63,5 @@ Database schema version   20210330202156
 
 * ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjI3NzQ5LC02NTQ3Njg3ODVdfQ==
+eyJoaXN0b3J5IjpbMTc2ODkxMzkwMSwtNjU0NzY4Nzg1XX0=
 -->

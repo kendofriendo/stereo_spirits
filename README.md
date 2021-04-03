@@ -11,17 +11,11 @@ Project 3 for Flatiron demonstrates a web application built with Ruby on Rails u
 	* `bundle install`
 	* `rails server`
 
-* Database creation
-	`
-* Database initialization
+* To create the database, initialize, and seed it:
+	* `rails db:drop`
+	* `rails db:setup`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 
 
 App created with:
 
@@ -91,6 +85,6 @@ System dependencies
 * ...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzU1NTkwNywtNjk1NjQxNTY4LDc1NT
+eyJoaXN0b3J5IjpbLTc3ODQwMDMxNiwtNjk1NjQxNTY4LDc1NT
 g1MDczLC02NTQ3Njg3ODVdfQ==
 -->

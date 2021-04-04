@@ -28,8 +28,13 @@ Once created, back inside the project directory run `rails credentials:edit` and
         github_client_secret: (your client secret)
 and save the file.
 
-Next, in your config/initializers/devise.rb under ⇒Omniauth, you'll want to put 
- config.omniauth :github, Rails.application.credentials.dig(:github, :github_client_id), Rails.application.credentials.dig(:github, :github_client_secret), scope: 'user, public_repo'
+Next, in your config/initializers/devise.rb under ⇒ Omniauth, you'll want to put 
+
+     config.omniauth :github,
+     Rails.application.credentials.dig(:github, :github_client_id),
+     Rails.application.credentials.dig(:github, 
+    :github_client_secret), scope: 'user, public_repo'
+
 ## The [blog post](https://www.kendofriendo.com/project/3) goes into how I went about creating it.
 
 
@@ -86,7 +91,7 @@ Next, in your config/initializers/devise.rb under ⇒Omniauth, you'll want to pu
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzM5OTIxMCwyMTM5MzEzOTUyLC0xMD
+eyJoaXN0b3J5IjpbMjA0ODg1Mjk3MiwyMTM5MzEzOTUyLC0xMD
 E3Mjg4NjA3LC02OTU2NDE1NjgsNzU1ODUwNzMsLTY1NDc2ODc4
 NV19
 -->

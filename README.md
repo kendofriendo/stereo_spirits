@@ -35,7 +35,8 @@ Next, in your config/initializers/devise.rb under ⇒ Omniauth, you'll want to p
      Rails.application.credentials.dig(:github, 
     :github_client_secret), scope: 'user, public_repo'
 
-## The [blog post](https://www.kendofriendo.com/project/3) goes into how I went about creating it.
+Rails credentials works by using encryption
+## The [blog post](https://www.kendofriendo.com/project/3) goes into detail how I went about creating it.
 
 
 
@@ -91,7 +92,7 @@ Next, in your config/initializers/devise.rb under ⇒ Omniauth, you'll want to p
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODg1Mjk3MiwyMTM5MzEzOTUyLC0xMD
-E3Mjg4NjA3LC02OTU2NDE1NjgsNzU1ODUwNzMsLTY1NDc2ODc4
-NV19
+eyJoaXN0b3J5IjpbLTM5NzYxMzMzNCwyMDQ4ODUyOTcyLDIxMz
+kzMTM5NTIsLTEwMTcyODg2MDcsLTY5NTY0MTU2OCw3NTU4NTA3
+MywtNjU0NzY4Nzg1XX0=
 -->

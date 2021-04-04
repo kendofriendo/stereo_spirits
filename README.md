@@ -35,7 +35,7 @@ Next, in your config/initializers/devise.rb under ⇒ Omniauth, you'll want to p
      Rails.application.credentials.dig(:github, 
     :github_client_secret), scope: 'user, public_repo'
 
-Rails credentials works by using encryption on the config/credentials.yml.enc file paired with a master.key in the same directory. In a production environment this means you can safely put the credentials for your app inside of your rails app, since it can't be decrypted unles
+Rails credentials works by using encryption on the config/credentials.yml.enc file paired with a master.key in the same directory. In a production environment this means you can safely put the credentials for your app inside of your rails app without having to 
 ## The [blog post](https://www.kendofriendo.com/project/3) goes into detail how I went about creating it.
 
 
@@ -92,7 +92,7 @@ Rails credentials works by using encryption on the config/credentials.yml.enc fi
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODE1NzYwMSwyMDQ4ODUyOTcyLDIxMz
-kzMTM5NTIsLTEwMTcyODg2MDcsLTY5NTY0MTU2OCw3NTU4NTA3
-MywtNjU0NzY4Nzg1XX0=
+eyJoaXN0b3J5IjpbMzMxMDQxNzEsMjA0ODg1Mjk3MiwyMTM5Mz
+EzOTUyLC0xMDE3Mjg4NjA3LC02OTU2NDE1NjgsNzU1ODUwNzMs
+LTY1NDc2ODc4NV19
 -->

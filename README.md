@@ -16,7 +16,7 @@
 
 * Access the site via localhost:3000, sign up, and start clicking on things.
 
-If you would like to use github to sign in, it you'll need to first [create your own oauth application](https://github.com/settings/developers) .
+If you would like to use github to sign in you'll need to first [create your own oauth application](https://github.com/settings/developers) .
 Set the home page to http://127.0.0.1/users/auth/github
 and set the authorization callback url to http://127.0.0.1:3000/users/auth/github/callback
 
@@ -92,7 +92,7 @@ Rails credentials works by using encryption on the config/credentials.yml.enc fi
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzM5MDgwNywyMDQ4ODUyOTcyLDIxMz
-kzMTM5NTIsLTEwMTcyODg2MDcsLTY5NTY0MTU2OCw3NTU4NTA3
-MywtNjU0NzY4Nzg1XX0=
+eyJoaXN0b3J5IjpbLTE4MTY5MjM5NDYsMTA3NzM5MDgwNywyMD
+Q4ODUyOTcyLDIxMzkzMTM5NTIsLTEwMTcyODg2MDcsLTY5NTY0
+MTU2OCw3NTU4NTA3MywtNjU0NzY4Nzg1XX0=
 -->

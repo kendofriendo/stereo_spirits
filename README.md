@@ -20,7 +20,7 @@ If you would like to use github to sign in, you'll need to first [create your ow
 Set the home page to http://127.0.0.1/users/auth/github
 and set the authorization callback url to http://127.0.0.1:3000/users/auth/github/callback
 
-Once created, back inside the project directory run `rails credentials:edit` and enter
+Once created, back inside the project directory run `rails credentials:edit` and enter:
  
 
     github:
@@ -28,9 +28,11 @@ Once created, back inside the project directory run `rails credentials:edit` and
         github_client_secret: (your client secret)
 and save the file.
 
+Next, in your config/initializers/devise.rb under ⇒Omniauth, you'll want to put 
+ config.omniauth :github, Rails.application.credentials.dig(:github, :github_client_id), Rails.application.credentials.dig(:github, :github_client_secret), scope: 'user, public_repo'
 ## The [blog post](https://www.kendofriendo.com/project/3) goes into how I went about creating it.
 
----
+
 
 ### System configuration details via `rails about`:
 
@@ -84,6 +86,7 @@ and save the file.
 **Gemfile**
 https://github.com/kendofriendo/stereo_spirits/blob/main/gem_info.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTMxMzk1MiwtMTAxNzI4ODYwNywtNj
-k1NjQxNTY4LDc1NTg1MDczLC02NTQ3Njg3ODVdfQ==
+eyJoaXN0b3J5IjpbMTAzNzM5OTIxMCwyMTM5MzEzOTUyLC0xMD
+E3Mjg4NjA3LC02OTU2NDE1NjgsNzU1ODUwNzMsLTY1NDc2ODc4
+NV19
 -->

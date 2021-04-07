@@ -16,26 +16,12 @@
 
 * Access the site via localhost:3000, sign up, and start clicking on things.
 
-If you would like to use github to sign in you'll need to first [create your own oauth application](https://github.com/settings/developers) .
-Set the home page to http://127.0.0.1/users/auth/github
-and set the authorization callback url to http://127.0.0.1:3000/users/auth/github/callback
 
-Once created, back inside the project directory run `rails credentials:edit` and enter:
- 
+* Github
+Rails credentials works by using encryption on the config/credentials.yml.enc file paired with a master.key in the same directory. This allows us to safely store credentials (like the oauth app) in our version control, and even have separate sets for each environment. If you have a large team working on an app together this allows everyone to use the same version without worrying about re-generating new credentials for every member or trying to securely pass around a keyfile. It's pretty neat.
 
-    github:
-        github_client_id: (your client id)
-        github_client_secret: (your client secret)
-and save the file.
+Github sign-in/sign-up will only work on localhost:3000, since that's where the callback is directed to.
 
-Next, in your config/initializers/devise.rb under ⇒ Omniauth, you'll want to put 
-
-     config.omniauth :github,
-     Rails.application.credentials.dig(:github, :github_client_id),
-     Rails.application.credentials.dig(:github, 
-    :github_client_secret), scope: 'user, public_repo'
-
-Rails credentials works by using encryption on the config/credentials.yml.enc file paired with a master.key in the same directory. This allows us to safely store credentials (like the oauth app) in our version control, and even have separate sets for each environment. It would work out of the box, but the oauth setup I have on github is tied to my account.
 ## The [blog post](https://www.kendofriendo.com/project/3) goes into detail how I went about creating it.
 
 

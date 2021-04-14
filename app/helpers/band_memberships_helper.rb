@@ -1,6 +1,6 @@
 module BandMembershipsHelper
-	def role_finder
-		BandMembership.where(user_id: "#{@user.id}").pluck(:role).join
+	def user_role(id)
+		BandMembership.where(user_id: id).pick(:role)
 	end
 
 end

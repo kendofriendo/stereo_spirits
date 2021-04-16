@@ -1,0 +1,8 @@
+require "minitest/autorun"
+	class TestBand < Minitest::Test
+		def setup
+			@band = Band.new
+		end
+
+		def test_that_band_can_be_created
+			assert

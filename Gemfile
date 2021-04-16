@@ -65,3 +65,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "scoped_search", "~> 4.1"
+
+gem "thin", "~> 1.8"

@@ -11,3 +11,5 @@ jobs:
         uses: andrewmcodes/rubocop-linter-action@v3.3.0
         with:
           action_config_path: ".github/workflows/rubocop_linter_action.yml" # Note: this is the default location
+      - name: ERB Linter
+        uses: revans/erb-action@v0.0.5

@@ -20,7 +20,7 @@
 
 
     <tr>
-    <%binding.pry%>
+
 	  <% @bands.all.each do |b|%>
       <th scope="row"><%=link_to "#{b.name}", band_path(b.id) %></th>
       <td><%= b.description%></td>
